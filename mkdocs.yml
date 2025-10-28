@@ -1,0 +1,35 @@
+site_name: My Project Documentation
+site_url: https://<твой_юзернейм>.github.io/<имя_репозитория>/
+repo_url: https://github.com/<твой_юзернейм>/<имя_репозитория>
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: README.md
+  - Installation: installation.md
+  - API Reference:
+      - Reference: docs/api/reference.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - def_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
