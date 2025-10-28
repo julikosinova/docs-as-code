@@ -16,7 +16,7 @@ nav:
   - Home: README.md
   - Installation: installation.md
   - API Reference:
-      - Reference: docs/api/reference.md
+      - Reference: api/reference.md
 
 markdown_extensions:
   - toc:
@@ -25,3 +25,4 @@ markdown_extensions:
   - codehilite
   - footnotes
   - def_list
+
