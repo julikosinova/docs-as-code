@@ -2,7 +2,7 @@ site_name: My Project Documentation
 site_url: https://<твой_юзернейм>.github.io/<имя_репозитория>/
 repo_url: https://github.com/<твой_юзернейм>/<имя_репозитория>
 theme:
-  name: material
+  name: mkdocs
   features:
     - navigation.tabs
     - navigation.top
